@@ -35,12 +35,6 @@ class ViewController: UIViewController {
         nameField.returnKeyType = UIReturnKeyType.done
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
 let bananaFanaTemplate = [
@@ -57,9 +51,12 @@ func shortNameFromName(name: String) -> String {
         nameArray.append(eachchar)
     }
     
-    //remove first letter if its not a vowel
-    if !(nameArray[0] == "a" || nameArray[0] == "e" || nameArray[0] == "i" || nameArray[0] == "o" || nameArray[0] == "u")  {
-        nameArray.remove(at: 0)
+    let vowels: [Character] = ["a","e","i","o","u"]
+    
+    if let firstLetter = name.lowercased().characters.first {
+        if !(vowels.contains(firstLetter)) {
+            nameArray.remove(at: 0)
+        }
     }
     
     for eachCharElement in nameArray {

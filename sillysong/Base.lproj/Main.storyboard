@@ -43,11 +43,11 @@
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kuu-u6-fKZ">
-                                <rect key="frame" x="67.5" y="278" width="240" height="128"/>
+                                <rect key="frame" x="47.5" y="238" width="280" height="80"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="IHq-v4-buO"/>
-                                    <constraint firstAttribute="height" constant="128" id="Rmc-im-9B9"/>
+                                    <constraint firstAttribute="width" constant="280" id="IHq-v4-buO"/>
+                                    <constraint firstAttribute="height" constant="80" id="Rmc-im-9B9"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -63,7 +63,7 @@
                             <constraint firstItem="SHX-Vg-3Z7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ejA-bQ-vRr"/>
                             <constraint firstItem="kuu-u6-fKZ" firstAttribute="centerX" secondItem="WiI-lg-Pyh" secondAttribute="centerX" id="sJN-iv-48J"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WiI-lg-Pyh" secondAttribute="trailing" constant="-16" id="ydz-9S-nso"/>
-                            <constraint firstItem="kuu-u6-fKZ" firstAttribute="top" secondItem="WiI-lg-Pyh" secondAttribute="bottom" constant="70" id="zyI-TI-q2H"/>
+                            <constraint firstItem="kuu-u6-fKZ" firstAttribute="top" secondItem="WiI-lg-Pyh" secondAttribute="bottom" constant="30" id="zyI-TI-q2H"/>
                         </constraints>
                     </view>
                     <connections>
